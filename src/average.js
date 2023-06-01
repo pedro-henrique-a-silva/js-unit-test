@@ -17,7 +17,7 @@ const average = (array) => {
   let soma = 0;
   for (let index = 0; index < array.length; index += 1) {
     if (typeof array[index] !== 'number') {
-      return undefined
+      return undefined;
     }
     soma += array[index];
   }
