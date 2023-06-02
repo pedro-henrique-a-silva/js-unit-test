@@ -3,7 +3,6 @@
 
 const createMenu = (object) => {
   const consumption = [];
-
   const fetchMenu = () => object;
 
   const order = (prod) => {
@@ -14,12 +13,21 @@ const createMenu = (object) => {
     }
   };
 
+  const pay = () => {
+    let totalBill = 0;
+    for (let value of consumption) {
+      if (object.food[value]) totalBill += object.food[value];
+      if (object.drinks[value]) totalBill += object.drinks[value];
+    }
+    return totalBill;
+  };
+
   return {
     fetchMenu,
     order,
+    pay,
     consumption,
   };
 };
 
-// console.log(createMenu({}));
 module.exports = createMenu;

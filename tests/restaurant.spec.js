@@ -30,5 +30,9 @@ describe('10 - Implemente a função `createMenu`, bem como seus casos de teste'
     expect(returnCreateMenu.consumption).toContain('agua');
     returnCreateMenu.order('cerveja')
     expect(returnCreateMenu.consumption).toContain('cerveja');
+    expect(returnCreateMenu.consumption).toHaveLength(3)
+    returnCreateMenu.order('cerveja')
+    expect(returnCreateMenu.consumption).toEqual(['coxinha', 'agua', 'cerveja', 'cerveja']);
+    expect(returnCreateMenu.pay()).toBe(21.6);
   });
 });
