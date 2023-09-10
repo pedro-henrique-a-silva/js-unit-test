@@ -1,21 +1,16 @@
-# Título do Projeto
+# Javascript, Testes Unitários
 
 ## Descrição
 
-Este repositório está em construção. Aqui você encontrará [breve resumo do projeto ou curso] e seus componentes.
+Neste repositório, criei um projeto seguindo a abordagem do Desenvolvimento Orientado a Testes (TDD), permitindo-me explorar a prática de escrever testes antes de implementar as funcionalidades. Para realizar esses testes, empreguei a biblioteca Jest.
 
 ## Conteúdo
 
 - [Instruções de Instalação](#instruções-de-instalação)
-- [Como Usar](#como-usar)
 
 ## Instruções de Instalação
 
-Descreva aqui as instruções necessárias para configurar o ambiente de desenvolvimento e instalar quaisquer dependências.
-
-## Como Usar
-
-Explique como usar. Forneça exemplos de código, capturas de tela ou demonstrações.
+Basta executar o comando `npm install` para instalar as dependências necessárias.
 
 ## Contribuição
 
@@ -29,5 +24,4 @@ Se você deseja contribuir para este projeto, siga estas etapas para contribuir:
 
 Lembre-se de que todas as contribuições são valorizadas e ajudam a tornar este projeto melhor para todos!
 
-## Continue como desejar este Readme.md
 **Observação:** Este repositório está em construção e será atualizado regularmente. Sinta-se à vontade para adicionar mais seções conforme necessário para o seu projeto.
